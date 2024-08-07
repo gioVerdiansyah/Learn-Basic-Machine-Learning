@@ -1,0 +1,6 @@
+.venv
+resources/sample_data/messy_vs_clean_room
+resources/sample_data/rockpaperscissors
+**/*.zip
+**/__pycache__/
+PracticeBySelf/catboost_info

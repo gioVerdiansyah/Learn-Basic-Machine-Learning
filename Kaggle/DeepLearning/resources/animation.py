@@ -8,7 +8,6 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 from matplotlib import animation, rc
 rc('animation', html='html5')
-plt.style.use('seaborn-whitegrid')
 
 # NUM_EXAMPLES = 256
 # BATCH_SIZE = 8
@@ -125,7 +124,6 @@ def animate_sgd(num_examples, batch_size, steps, learning_rate,
     return ani
 
 rc('animation', html='html5')
-plt.style.use('seaborn-whitegrid')
 
 
 def animate_curve_fitting(model,
