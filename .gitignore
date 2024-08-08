@@ -4,3 +4,4 @@ resources/sample_data/rockpaperscissors
 **/*.zip
 **/__pycache__/
 PracticeBySelf/catboost_info
+**/*.pickle
