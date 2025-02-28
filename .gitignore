@@ -5,3 +5,5 @@ resources/sample_data/rockpaperscissors
 **/__pycache__/
 PracticeBySelf/catboost_info
 **/*.pickle
+**/*.pkl
+.idea

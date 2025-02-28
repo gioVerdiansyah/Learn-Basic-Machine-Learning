@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .row-1, .row-2 {
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            align-self: center;
+        }
+
+        input, select {
+            margin-bottom: 15px;
+            width: 150px;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        button {
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+<form method="post" action="/predict">
+    <div class="container">
+        <div class="row-1">
+            <label for="gender">Gender</label>
+            <select required name="gender" id="gender">
+                <option disabled selected>--Select 1--</option>
+                <option value="1">Male</option>
+                <option value="0">Female</option>
+            </select>
+            <label for="ever_married">Ever Married</label>
+            <select required name="ever_married" id="ever_married">
+                <option disabled selected>--Select 1--</option>
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+            </select>
+            <label for="work_type">Work Type</label>
+            <select required name="work_type" id="work_type">
+                <option disabled selected>--Select 1--</option>
+                <option value="2">Private</option>
+                <option value="3">Self-employed</option>
+                <option value="0">Govt_job</option>
+                <option value="4">Children</option>
+                <option value="1">Never_worked</option>
+            </select>
+            <label for="Residence_type">Residence type</label>
+            <select required name="Residence_type" id="Residence_type">
+                <option disabled selected>--Select 1--</option>
+                <option value="1">Urban</option>
+                <option value="0">Rural</option>
+            </select>
+            <label for="smoking_status">Smoking status</label>
+            <select required name="smoking_status" id="smoking_status">
+                <option disabled selected>--Select 1--</option>
+                <option value="1">Formerly smoked</option>
+                <option value="2">Never smoked</option>
+                <option value="3">smokes</option>
+            </select>
+        </div>
+        <div class="row-2">
+            <label for="age">Age</label>
+            <input type="number" width="20" required name="age" id="age">
+            <label for="hypertension">Hypertension</label>
+            <input type="number" width="20" required name="hypertension" id="hypertension">
+            <label for="avg_glucose_level">AVG Glucose Level</label>
+            <input type="number" width="20" required name="avg_glucose_level" id="avg_glucose_level">
+            <label for="bmi">BMI</label>
+            <input type="number" width="20" required name="bmi" id="bmi">
+            <label for="heart_disease">Heart Disease</label>
+            <input type="number" width="20" required name="heart_disease" id="heart_disease">
+        </div>
+    </div>
+    <button type="submit">Predict</button>
+</form>
+</body>
+</html>

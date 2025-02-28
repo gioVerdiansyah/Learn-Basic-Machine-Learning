@@ -1,0 +1,21 @@
+Decision Tree:
+- Memiliki sebuah node untuk menyimpan informasi: feature, threshold, left, right, gain, value
+- Splitting data decision tree menjadi left dan right berdasarkan threshold
+- Memiliki fungsi entropy untuk menghitung ketidakpastian(precent) dari left & right 
+- Information Gain menghitung berapa angka <= yang baik untuk di pecah menjadi left & right
+- Fungsi best split untuk menghitung feature, threshold, left_d, right_d, dan gain yang pas
+- Fungsi untuk hitung berapa banyak data X yang tersisa untuk hasil akhir predict (voting)
+- Buat pohon :
+    - Pastikan sample > min_sample & depth < depth jika tidak kembalikan node dengan y value
+    - Best split dari datasets, sample, cols
+    - Pastikan Panjang gain, left, right > 0 dari best split
+    - buat left & right node dari fungsi pohon itu sendiri untuk mengisi isi node
+- Fit DT dengan menggabungkan X_train & y_train lalu bagin tree
+- Make prediction dari node left & right, jika feature dari X_test maka make predict untuk left jika tidak untuk right
+- Iterasi semua X_test untuk make prediction data X_test lalu kumpulkan hasil predictions dan return
+
+RandomForest
+- Memiliki Fungsi Bootstrap samples untuk mengacak datasets agar selalu berbeda saat train DT
+- Fungsi untuk hitung berapa banyak data X yang tersisa untuk hasil akhir predict (voting)
+- Fit RF: berdasarkan iterasi n_tree dan buat DT didalamnya dan hasil fit di simpan
+- Predict 1 per 1 dari dalam array yang terlah di fit lalu simpan, swapaxes array hasil predict dan voting berapa banyak hasil prediksi yang muncul
