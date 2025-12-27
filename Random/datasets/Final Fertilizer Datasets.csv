@@ -1,0 +1,110 @@
+,Crop,Crop(ID),Soil_Type,Soil_Type(ID),Nitrogen,Phosphorus,Kalium,Temperature
+0,Barley,Jelai,Black,Hitam,13.0,20.0,2.0,30.27
+1,Barley,Jelai,Clayey,Lempung,13.0,18.5,2.0,29.549999999999997
+2,Barley,Jelai,Loamy,Lempung Berpasir,14.0,16.0,1.0,30.31
+3,Barley,Jelai,Red,Merah,14.0,17.0,2.0,30.14
+4,Barley,Jelai,Sandy,Berpasir,15.0,19.0,1.0,30.34
+5,Cotton,Kapas,Black,Hitam,100.0,32.0,45.0,27.52
+6,Cotton,Kapas,Clayey,Lempung,14.0,18.0,2.0,29.75
+7,Cotton,Kapas,Loamy,Lempung Berpasir,13.0,19.0,3.0,29.96
+8,Cotton,Kapas,Red,Merah,110.0,50.0,55.0,30.0
+9,Cotton,Kapas,Sandy,Berpasir,14.0,19.0,1.0,30.37
+10,Ginger,Jahe,Black,Hitam,50.0,50.0,70.0,25.0
+11,Gram,Kacang Arab,Black,Hitam,35.0,40.0,20.0,22.5
+12,Grapes,Anggur,Red,Merah,90.0,50.0,130.0,25.0
+13,Ground Nuts,Kacang Tanah,Black,Hitam,21.0,30.0,15.0,29.9
+14,Ground Nuts,Kacang Tanah,Clayey,Lempung,13.0,15.0,2.0,30.16
+15,Ground Nuts,Kacang Tanah,Light Brown,Cokelat Muda,25.0,45.0,25.0,25.0
+16,Ground Nuts,Kacang Tanah,Loamy,Lempung Berpasir,13.5,17.0,2.0,30.17
+17,Ground Nuts,Kacang Tanah,Red,Merah,17.0,27.0,3.0,31.0
+18,Ground Nuts,Kacang Tanah,Sandy,Berpasir,16.0,17.5,2.0,30.105
+19,Jowar,Sorgum,Black,Hitam,50.0,30.0,30.0,30.0
+20,Jowar,Sorgum,Red,Merah,65.0,45.0,45.0,25.0
+21,Maize,Jagung,Black,Hitam,120.0,60.0,40.0,27.05
+22,Maize,Jagung,Clay,Lempung,81.56,45.945,53.565,27.255
+23,Maize,Jagung,Clayey,Lempung,14.0,17.0,1.0,30.65
+24,Maize,Jagung,Dark Brown,Cokelat Tua,135.0,70.0,50.0,25.0
+25,Maize,Jagung,Loamy,Lempung Berpasir,62.98,35.67,44.06,28.93
+26,Maize,Jagung,Peaty,Gambut,83.71000000000001,47.835,52.959999999999994,28.075
+27,Maize,Jagung,Red,Merah,14.0,17.5,2.0,30.55
+28,Maize,Jagung,Saline,Asin,76.91,44.89,56.370000000000005,27.275
+29,Maize,Jagung,Sandy,Berpasir,60.99,38.36,41.19,28.32
+30,Maize,Jagung,Silt,Endapan,78.57,45.644999999999996,56.725,27.62
+31,Masoor,Kacang Merah,Medium Brown,Cokelat Sedang,45.0,22.5,22.5,22.5
+32,Millets,Beras Ketan,Black,Hitam,14.0,16.0,2.0,30.13
+33,Millets,Beras Ketan,Clayey,Lempung,16.5,15.5,1.0,30.205
+34,Millets,Beras Ketan,Loamy,Lempung Berpasir,13.0,19.0,1.0,30.3
+35,Millets,Beras Ketan,Red,Merah,17.0,15.5,0.0,30.435000000000002
+36,Millets,Beras Ketan,Sandy,Berpasir,15.0,17.0,0.0,29.835
+37,Moong,Kacang Hijau,Black,Hitam,62.5,30.0,25.0,30.0
+38,Moong,Kacang Hijau,Light Brown,Cokelat Muda,25.0,15.0,10.0,30.0
+39,Oil seeds,Biji Minyak,Black,Hitam,13.0,18.0,1.0,29.67
+40,Oil seeds,Biji Minyak,Clayey,Lempung,13.0,15.0,3.0,29.9
+41,Oil seeds,Biji Minyak,Loamy,Lempung Berpasir,15.0,17.0,1.0,30.545
+42,Oil seeds,Biji Minyak,Red,Merah,13.0,14.5,2.0,30.845
+43,Oil seeds,Biji Minyak,Sandy,Berpasir,15.0,18.0,2.0,30.59
+44,Paddy,Padi,Black,Hitam,13.0,19.0,1.0,30.09
+45,Paddy,Padi,Clayey,Lempung,15.0,18.0,0.0,30.17
+46,Paddy,Padi,Loamy,Lempung Berpasir,15.0,17.0,2.0,30.37
+47,Paddy,Padi,Red,Merah,15.0,18.5,1.0,29.240000000000002
+48,Paddy,Padi,Sandy,Berpasir,14.0,19.0,1.0,31.05
+49,Potato,Kentang,Clay,Lempung,74.35,47.595,50.05,27.185000000000002
+50,Potato,Kentang,Loamy,Lempung Berpasir,73.32,47.45,59.78,28.89
+51,Potato,Kentang,Peaty,Gambut,74.79,50.31,52.35,26.9
+52,Potato,Kentang,Saline,Asin,78.16,46.525,56.25,27.615000000000002
+53,Potato,Kentang,Sandy,Berpasir,71.54,48.72,58.1,27.63
+54,Potato,Kentang,Silt,Endapan,74.99,47.54,52.25,28.24
+55,Pulses,Kacang Polong,Black,Hitam,14.0,18.0,2.0,30.24
+56,Pulses,Kacang Polong,Clayey,Lempung,14.0,18.0,1.0,30.36
+57,Pulses,Kacang Polong,Loamy,Lempung Berpasir,14.0,18.0,2.0,30.43
+58,Pulses,Kacang Polong,Red,Merah,16.0,18.0,1.0,29.48
+59,Pulses,Kacang Polong,Sandy,Berpasir,14.0,19.0,2.0,30.564999999999998
+60,Rice,Beras,Black,Hitam,110.0,55.0,55.0,35.0
+61,Rice,Beras,Clay,Lempung,76.205,46.08,56.855000000000004,27.47
+62,Rice,Beras,Loamy,Lempung Berpasir,72.615,47.82,55.43000000000001,28.365000000000002
+63,Rice,Beras,Medium Brown,Cokelat Sedang,30.0,20.0,30.0,25.0
+64,Rice,Beras,Peaty,Gambut,77.155,50.7,53.18000000000001,27.19
+65,Rice,Beras,Red,Merah,100.0,50.0,50.0,30.0
+66,Rice,Beras,Saline,Asin,74.485,47.230000000000004,53.9,27.315
+67,Rice,Beras,Sandy,Berpasir,76.42,49.09,55.59,26.66
+68,Rice,Beras,Silt,Endapan,77.99,48.86,56.22,26.66
+69,Soybean,Kedelai,Black,Hitam,50.0,35.0,25.0,25.0
+70,Sugarcane,Tebu,Black,Hitam,130.0,70.0,125.0,29.8
+71,Sugarcane,Tebu,Clay,Lempung,78.8,46.18,59.82,27.35
+72,Sugarcane,Tebu,Clayey,Lempung,13.0,18.0,2.0,30.48
+73,Sugarcane,Tebu,Loamy,Lempung Berpasir,55.89,35.95,40.5,28.68
+74,Sugarcane,Tebu,Peaty,Gambut,81.8,49.63,58.42,26.09
+75,Sugarcane,Tebu,Red,Merah,15.0,16.0,1.0,30.12
+76,Sugarcane,Tebu,Reddish Brown,Cokelat Kemerahan,135.0,70.0,90.0,25.0
+77,Sugarcane,Tebu,Saline,Asin,80.87,46.675,55.405,27.015
+78,Sugarcane,Tebu,Sandy,Berpasir,53.47,36.0,41.05,28.58
+79,Sugarcane,Tebu,Silt,Endapan,81.38,44.4,57.01,27.1
+80,Tobacco,Tembakau,Black,Hitam,14.0,17.0,2.0,29.744999999999997
+81,Tobacco,Tembakau,Clayey,Lempung,14.0,18.0,1.0,29.75
+82,Tobacco,Tembakau,Loamy,Lempung Berpasir,14.0,16.0,1.0,29.884999999999998
+83,Tobacco,Tembakau,Red,Merah,14.0,19.0,2.0,29.94
+84,Tobacco,Tembakau,Sandy,Berpasir,15.0,18.0,2.0,30.28
+85,Tomato,Tomat,Clay,Lempung,72.55,48.83,54.78,28.0
+86,Tomato,Tomat,Loamy,Lempung Berpasir,78.67,48.370000000000005,51.185,27.795
+87,Tomato,Tomat,Peaty,Gambut,75.975,47.19,57.614999999999995,27.44
+88,Tomato,Tomat,Saline,Asin,79.66,45.12,55.74,27.0
+89,Tomato,Tomat,Sandy,Berpasir,77.315,47.39,54.335,28.59
+90,Tomato,Tomat,Silt,Endapan,73.69999999999999,43.475,54.295,28.035
+91,Tur,Kacang Toor,Dark Brown,Cokelat Tua,25.0,35.0,17.5,25.0
+92,Tur,Kacang Toor,Red,Merah,45.0,30.0,25.0,30.0
+93,Tur,Kacang Toor,Reddish Brown,Cokelat Kemerahan,35.0,50.0,25.0,30.0
+94,Turmeric,Kunyit,Black,Hitam,25.0,25.0,45.0,25.0
+95,Turmeric,Kunyit,Red,Merah,55.0,55.0,45.0,25.0
+96,Urad,Kacang Hitam,Black,Hitam,62.5,35.0,25.0,30.0
+97,Urad,Kacang Hitam,Dark Brown,Cokelat Tua,25.0,35.0,25.0,20.0
+98,Wheat,Gandum,Black,Hitam,65.0,43.0,40.0,25.0
+99,Wheat,Gandum,Clay,Lempung,79.81,50.74,56.57,27.08
+100,Wheat,Gandum,Clayey,Lempung,15.0,17.0,1.0,30.22
+101,Wheat,Gandum,Dark Brown,Cokelat Tua,100.0,55.0,50.0,20.0
+102,Wheat,Gandum,Loamy,Lempung Berpasir,59.52,38.0,44.73,28.38
+103,Wheat,Gandum,Peaty,Gambut,84.99,46.55,57.35,28.07
+104,Wheat,Gandum,Red,Merah,38.0,40.0,14.0,27.54
+105,Wheat,Gandum,Reddish Brown,Cokelat Kemerahan,110.0,55.0,45.0,15.0
+106,Wheat,Gandum,Saline,Asin,79.00999999999999,51.120000000000005,52.36,27.215
+107,Wheat,Gandum,Sandy,Berpasir,61.69,40.0,42.02,28.65
+108,Wheat,Gandum,Silt,Endapan,75.09,52.48,55.37,26.92
